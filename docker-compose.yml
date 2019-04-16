@@ -16,7 +16,5 @@ networks:
   sdnet:
     driver: "bridge"
 volumes:
-  mysqldata:
-    driver: "local"
   redisdata:
     driver: "local"
